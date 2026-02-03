@@ -1,0 +1,15 @@
+left:
+  left:
+    left: null
+    right: null
+    value: 3
+  right:
+    left: null
+    right: null
+    value: 7
+  value: 5
+right:
+  left: null
+  right: null
+  value: 15
+value: 10
