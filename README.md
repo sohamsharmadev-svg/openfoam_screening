@@ -1,16 +1,68 @@
 # Binary Tree Package with YAML Support
 
-## Features
-- Create binary tree
-- Add nodes using path
-- Edit nodes
-- Delete nodes
-- Print tree structure
-- Export tree to YAML
-- Build tree from YAML
+This project implements a Binary Tree package in Python with YAML integration.  
+Developed as part of the OpenFOAM screening task.
 
-## Requirements
+---
+
+## 🚀 Features
+
+✅ Create a binary tree  
+✅ Add nodes using path notation (L, R, LL, etc.)  
+✅ Delete nodes  
+✅ Edit node values  
+✅ Print tree structure  
+✅ Load tree from YAML  
+✅ Save tree to YAML  
+
+---
+
+## 📦 Project Structure
+
+```
+binarytree_pkg/
+├── node.py
+├── tree_utils.py
+├── yaml_utils.py
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/sohamsharmadev-svg/openfoam_screening.git
+cd openfoam_screening
+```
+
+Install dependencies:
+
+```bash
 pip install -r requirements.txt
+```
 
-## Run
+---
+
+## ▶️ Run the Project
+
+```bash
 python main.py
+```
+
+---
+
+## 🧠 Skills Demonstrated
+
+- Object-Oriented Programming  
+- Data Structures  
+- YAML Serialization  
+- Python Packaging  
+- Git & GitHub  
+
+---
+
+## 👨‍💻 Author
+
+**Soham Sharma**
