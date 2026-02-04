@@ -41,6 +41,3 @@ preorder(root)
 
 print("\n\nPOSTORDER:")
 postorder(root)
-
-
-

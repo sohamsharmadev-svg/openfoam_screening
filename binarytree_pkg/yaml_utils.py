@@ -1,7 +1,6 @@
 import yaml
 from .node import Node
 
-
 def dict_to_tree(data):
 
     if data is None:

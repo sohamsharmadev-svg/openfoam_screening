@@ -3,6 +3,9 @@
 This project implements a Binary Tree package in Python with YAML integration.  
 Developed as part of the OpenFOAM screening task.
 
+A modular Binary Tree implementation with YAML serialization designed for structured data storage and reconstruction. Built with clean architecture principles for scalability and maintainability.
+
+
 ---
 
 ## 🚀 Features

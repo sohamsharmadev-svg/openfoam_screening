@@ -1,9 +1,7 @@
 from .node import Node
 
-
 def create_tree(value):
     return Node(value)
-
 
 def add_node_by_path(root, path, value):
     """
@@ -36,7 +34,6 @@ def add_node_by_path(root, path, value):
         current.left = Node(value)
     else:
         current.right = Node(value)
-
 
 def print_tree(root, level=0, prefix="Root: "):
     """
@@ -71,8 +68,6 @@ def edit_node(root, path, new_value):
 
     current.value = new_value
 
-
-
 def delete_node(root, path):
     """
     Delete a node using path.
@@ -101,8 +96,6 @@ def delete_node(root, path):
 
     return root
 
-
-
 def inorder(root):
     """
     Left -> Root -> Right
@@ -117,12 +110,10 @@ def preorder(root):
     """
     Root -> Left -> Right
     """
-
     if root:
         print(root.value, end=" ")
         preorder(root.left)
         preorder(root.right)
-
 
 def postorder(root):
     """
@@ -133,6 +124,3 @@ def postorder(root):
         postorder(root.left)
         postorder(root.right)
         print(root.value, end=" ")
-
-
-        
